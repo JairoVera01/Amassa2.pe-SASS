@@ -1,4 +1,4 @@
-# Amassa2.pe-VeraChamorro-Bootstrap
+# Amassa2.pe-VeraChamorro-Sass
 Maquetando proyecto para Amassa2.pe usando Sass & Partials & Varialbes Index.Html y una adicional.
 
 Proyecto realizado para Desafío Aplicando SASS
