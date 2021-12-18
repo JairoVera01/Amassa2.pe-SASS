@@ -1,0 +1,92 @@
+
+
+/*Variables*/
+$color-principal: #E3BC91;
+$color-hero-titulo: white;
+$size-font-header: 1.29rem;
+$height-logo: 4.2rem;
+$border-logo: 5rem;
+$margin-l-logo: 10px;
+$contenedor-logo-margin-r: 1.5rem;
+$margin-l-nav-link: 1.2rem;
+$hero-height-vh: 70vh;
+
+/*Estilos - Header - NavBar*/
+/*Estilos sass*/
+
+/*Partials*/
+@import "./partials/header";
+@import "./partials/navbar";
+@import "./partials/waves";
+
+
+
+
+
+
+
+/*Estilos - Hero Section*/
+.hero{
+    height: $hero-height-vh;
+    background-image: url("../assets/resources/fondo_hero.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2; /*Para ordenar div - suerponer uno por otro */
+}
+
+.hero__contenedor{
+    width: 400px;
+    position: relative;
+    left: 4rem;
+
+}
+
+.hero__titulo{   
+    color: $color-hero-titulo;
+    font-size: 3.5rem;  
+    margin-bottom: 3rem;
+}
+
+.btn__compra{
+    font-size: 1.5rem;
+}
+
+.hero{
+    -webkit-animation: bg-pan-top 60s both;
+            animation: bg-pan-top 60s both;
+}
+
+
+@-webkit-keyframes bg-pan-top {
+    0% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+@keyframes bg-pan-top {
+    0% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+
+
+/*PRODUCTOS HTML*/
+body {
+    margin: 0;
+}
+
+
+
+
+
+/*Productos*/
