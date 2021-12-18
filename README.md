@@ -1,5 +1,5 @@
 # Amassa2.pe-VeraChamorro-Bootstrap
-Maquetando proyecto para Amassa2.pe usando Boostrap para las vistas Indes.Html y una adicional
+Maquetando proyecto para Amassa2.pe usando Sass & Partials & Varialbes Index.Html y una adicional.
 
 Proyecto realizado para Desafío Aplicando SASS
 <br>
