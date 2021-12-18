@@ -1,0 +1,23 @@
+{
+  "name": "amassa2.pe-sass",
+  "version": "1.0.0",
+  "description": "\"Proyecto para Proyecto-SASS\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairoVera01/Amassa2.pe-SASS.git"
+  },
+  "author": "Jairo Vera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairoVera01/Amassa2.pe-SASS/issues"
+  },
+  "homepage": "https://github.com/JairoVera01/Amassa2.pe-SASS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
